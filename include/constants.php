@@ -1,10 +1,10 @@
 <?php
 
 // >>>>>>>>>>>>>>>>>> SERVER OPTIONS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-define("DB_SERVER", "db2299.perfora.net");  // Server address for your MySQL server
-define("DB_USER", "dbo318899181");	// MySQL server username
-define("DB_PASS", "kelman090");		// MySQL server password
-define("DB_NAME", "db318899181");   // 
+define("DB_SERVER", "");  // Server address for your MySQL server
+define("DB_USER", "");	// MySQL server username
+define("DB_PASS", "");		// MySQL server password
+define("DB_NAME", "");   // 
 
 define("CLAN_NAME", "Clan Name");
 define("CLAN_TAG", "Tag-");
