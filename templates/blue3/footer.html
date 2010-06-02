@@ -1,0 +1,67 @@
+<!-- Exiting Scripts - Entering Template -->
+
+
+</div>
+</div>
+</div>
+</div>
+						<div class="content_right">
+							<div style="height: 37px;"><img border="0" src="templates/blue3/images/tagboxtop.png" class="layout" /></div>
+							<?php $tagbox = new Tagbox(); ?>
+							<div class="tagbox_content">
+								<div>&nbsp;</div>
+								<div class="tags">
+									<?php $tagbox->displayTags(); ?>
+								</div>
+							</div>
+							<?php if( $user->logged_in )
+							{
+							?>
+							<div class="tagbox_bottom">
+							<form style="margin: 0; padding: 0;" action="process.php" method="post">
+							<div><textarea class="tagbox_input" name="text"><?php echo($form->error("tagbox"));?></textarea></div>
+							<div align="right" style="padding-right: 30px; margin-top: 5px;"><input type="image" src="templates/blue3/images/tagbox_submit.png" /></div>
+							<input type="hidden" name="cmd" value="tag" />
+							</form>
+							</div>
+							<?php
+							}
+							else
+							{
+							?>
+							<div class="tagbox_bottom"
+							<textarea class="tagbox_input" name="text" style="text-align: center;">You Must Be Logged In To Post</textarea>
+							</div>
+							<?php
+							}
+							?>
+							
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div><img src="templates/blue3/images/footer.png" border="0" alt="" usemap="#footer" /></div>
+		</div>
+		<map name="footer">
+		<area shape="rect" alt="" coords="357,51,581,93" href="http://www.sovcm.com" target="_blank">
+		<area shape="rect" alt="" coords="501,32,554,42" href="http://www.sovcm.com" target="_blank">
+		<area shape="rect" alt="" coords="576,14,700,24" href="http://www.sovcm.com" target="_blank">
+		<area shape="rect" alt="" coords="267,14,337,24" href="http://www.clanzt.com" target="_blank">
+		</map>
+	</body>
+</html>

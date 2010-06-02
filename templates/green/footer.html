@@ -1,0 +1,57 @@
+<!-- Exiting Scripts - Entering Template -->
+
+
+</div>
+</div>
+</div>
+</div>
+						<div class="content_right">
+							<div style="height: 29px;"><img border="0" src="templates/green/images/content_right_bar_top_22.png" class="layout" /></div>
+							<?php $tagbox = new Tagbox(); ?>
+							<div class="tagbox_content">
+								<div>&nbsp;</div>
+								<div class="tags">
+									<?php $tagbox->displayTags(); ?>
+								</div>
+							</div>
+							<?php if( $user->logged_in )
+							{
+							?>
+							<form style="margin: 0; padding: 0;" action="process.php" method="post">
+							<textarea class="tagbox_input" name="text"><?php echo($form->error("tagbox"));?></textarea>
+							<div class="tagbox_bottom"><input type="image" src="templates/green/images/tag_03.png" /></div>
+							<input type="hidden" name="cmd" value="tag" />
+							</form>
+							<?php
+							}
+							else
+							{
+							?>
+							<textarea class="tagbox_input" name="text" style="text-align: center;">You Must Be Logged In To Post</textarea>
+							<div class="tagbox_bottom"></div>
+							<?php
+							}
+							?>
+							
+							<div style="height: 52px;"><img border="0" src="templates/green/images/OTMawards_32.png" class="layout" /></div>
+							<div class="otm_top"></div>
+							<div class="otm_middle"></div>
+							<div class="otm_middle"></div>
+							<div class="otm_bottom"></div>
+							<div class="spacer20px"></div>
+							<br />
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div><img src="templates/green/images/footer.png" width="917" height="62" border="0" alt="" usemap="#footer"></div>
+		</div>
+		<map name="footer">
+		<area shape="rect" alt="Kelly Smith" coords="529,45,582,55" href="http://www.sovcm.com" target="_blank">
+		<area shape="rect" alt="Sovereign Clan Manager" coords="572,15,684,24" href="http://www.sovcm.com" target="_blank">
+		<area shape="rect" alt="Divine Intervention" coords="243,15,335,25" href="http://www.clandi.net/index.php" target="_blank">
+		</map>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+Version 1.0 (April - August 2007)
+
+	This is the first version of Sovereign Clan manager that I made. I first started coding it as I learned php.  As you can imagine, it was not organized/coded very well.  It was not very expandable or efficient due to the fact that I didn't really know what I was doing.  It had some limited features - Squads, Basic Member Management, News
+
+Version 2.0 ( August - November 2007 )
+
+	After realizing the limitations I had handicapped myself with version 1.0, I started over completely. I designed my own Login System using Object Oriented Programing and discovered a system of organization that I am very fond of. I based the rest of it off of that system and came up with a very organized basic replication of 1.0 but better in every way.  It was much more organized and easy to expand apon.
+
+Version 2.1 ( November 2007 - Present )
+	
+	This new version brought in a new hierarchical grouping system. It allowed for three different groups of increasing specificity - Corps, Divisions, and Squadrons.  This is a very extensive system and created a new system of code organization that expanded on my other one introduced in version 2.0.
+	
